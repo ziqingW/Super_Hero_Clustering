@@ -1,6 +1,8 @@
 # Super_Hero_Clustering
 ## Introduction
-This project is to distribute comic super heroes into different clusters based on their abilities using machine learning.  
+This project is to distribute comic super heroes into different clusters based on their abilities using machine learning. It can be divided into two parts.  
+* Part 1: Using cosine similarity to find out the most similar hero for the input one based on the abilities.  
+* Part 2: Clustering heroes into different groups by KMeans method.  
 
 ## Data  
 **Data Source:**  
@@ -13,11 +15,16 @@ Data example:
 Data summary:  
 668 x 168  (668 heroes and 168 types of abilities)  
 
-**Although the columns are already in one-hot style, the values are 'True/False' in String, which need to be converted into 1 or 0 for the convenience of future analysis**  
+**Although the columns are already in one-hot style, the values are 'True/False' in String, which need to be converted into 1 or 0 for the convenience of future analysis.**  
 
 ## Methodology  
 **I.  Data preprocessing**  
-1.  Load images with PIL in batch by glob.  
+
+
+
+
+
+1.  Load CSV file with PIL in batch by glob.  
 2.  Convert all the images to 'RGB' mode and resize them to 128 x 128 pixels (Using larger image would cause very complex computation, and the significance change is not worth of the computation cost).  
 3.  Standardize the pixel value and convert the image data to numpy vectors, which are the X sets for the model inputs (including training, dev and testing). Create the related Y sets (vector of 0 for normal sets, 1 for pneumonia sets) based on the X set's shape.  
 4.  Make the complete data sets by concatenating both normal and penumonia data sets for both X and Y.  
