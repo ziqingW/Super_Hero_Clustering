@@ -8,7 +8,7 @@ https://www.kaggle.com/claudiodavi/superhero-set#super_hero_powers.csv
 This data was scraped from <a href='https://www.superherodb.com/'>SuperHeroDb</a> and was collected in June/2017 from superherodb which  had not been updated since, so it may not be up to date.  
 
 Data example:  
-<img src='Normal_example.jpeg' alt='normal x ray' title='normal example' width=250px height=250px>  
+<img src='Data_example.jpeg' alt='screenshot for data example' title='data example' width=400px height=200px>  
 
 Pneumonia example:  
 <img src='Pneumonia_example.jpeg' alt='normal x ray' title='normal example' width=250px height=250px>  
