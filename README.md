@@ -54,4 +54,4 @@ Fig.5b_t-SNE plot: <img src='./images/t-SNE.png' alt='screenshot for t-SNE' titl
 2. Besides the data of power the author also supplied a CSV file of appearance of heroes. However, I didn't add it into the clustering data set since I don't think it fun to group heroes by their appearance. Although it can be a good practice of data analysis to include it.  
 
 ## Conclusion  
-Super hero is cool and powerful with her/his specialities. And just like everything else in the universe, they can be grouped too based on their powers. This project here clustered and visulized the heroes into significantly different groups. It's quite fun.  
+Super hero is cool and powerful with her/his specialities. And just like everything else in the universe, they can be grouped too based on their powers. This project here clustered and visualized the heroes into significantly different groups. It's quite fun.  
