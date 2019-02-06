@@ -50,7 +50,7 @@ Fig.5a_PCA plot: <img src='./images/PCA.png' alt='screenshot for PCA' title='PCA
 Fig.5b_t-SNE plot: <img src='./images/t-SNE.png' alt='screenshot for t-SNE' title='t-SNE result'>  
 
 ## Discussion  
-1. The original data set only shows 'True/False' as value in the columns of abilities. It's not good enough even after converting it to 1/0 because there's no quantitive difference among heroes for one same ability. The performance of the same "Agility" can be completely different for Superman and Batman. It could be cool if the ability is a float number between 0 to 1. Otherwise, the clustering is more or less like the comparison of ability numbers.   
+1. The original data set only shows 'True/False' as value in the columns of abilities. It's not good enough even after converting it to 1/0 because there's no quantitive difference among heroes for one same ability. The performance of the same "Agility" can be completely different for Superman and Batman. It could be cool if the ability is a float number between 0 and 1. Otherwise, the clustering is more or less like the comparison of ability numbers.   
 2. Besides the data of power the author also supplied a CSV file of appearance of heroes. However, I didn't add it into the clustering data set since I don't think it fun to group heroes by their appearance. Although it can be a good practice of data analysis to include it.  
 
 ## Conclusion  
